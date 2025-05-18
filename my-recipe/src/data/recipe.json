@@ -1,0 +1,72 @@
+
+  {
+    "title": "Pancake",
+    "slug": "pancake",
+    "image": "/images/pancake.jpg",
+    "ingredients": ["2 cups flour", "2 eggs", "1.5 cups milk", "1 tbsp sugar", "1 tsp baking powder"],
+    "steps": ["Mix dry ingredients", "Add eggs and milk", "Whisk until smooth", "Cook on griddle until golden"]
+  },
+  {
+    "title": "Pizza",
+    "slug": "pizza",
+    "image": "/images/pizza.jpg",
+    "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil leaves"],
+    "steps": ["Preheat oven to 220°C", "Spread sauce on dough", "Add cheese and basil", "Bake for 15 mins"]
+  },
+  {
+    "title": "Spaghetti",
+    "slug": "spaghetti",
+    "image": "/images/spaghetti.jpg",
+    "ingredients": ["Spaghetti pasta", "Tomato sauce", "Ground beef", "Onion", "Garlic"],
+    "steps": ["Boil pasta", "Cook beef with onion and garlic", "Add sauce", "Mix and serve"]
+  },
+  {
+    "title": "Salad",
+    "slug": "salad",
+    "image": "/images/salad.jpg",
+    "ingredients": ["Lettuce", "Tomatoes", "Cucumber", "Olive oil", "Feta cheese"],
+    "steps": ["Chop vegetables", "Mix in a bowl", "Add olive oil and cheese"]
+  },
+  {
+    "title": "Burger",
+    "slug": "burger",
+    "image": "/images/burger.jpg",
+    "ingredients": ["Burger bun", "Beef patty", "Lettuce", "Tomato", "Cheese"],
+    "steps": ["Grill patty", "Assemble burger", "Serve with fries"]
+  },
+  {
+    "title": "Sushi",
+    "slug": "sushi",
+    "image": "/images/sushi.jpg",
+    "ingredients": ["Sushi rice", "Nori", "Fish", "Soy sauce", "Wasabi"],
+    "steps": ["Cook rice", "Place ingredients on nori", "Roll and slice"]
+  },
+  {
+    "title": "Omelette",
+    "slug": "omelette",
+    "image": "/images/omelette.jpg",
+    "ingredients": ["2 eggs", "Milk", "Salt", "Pepper", "Cheese"],
+    "steps": ["Beat eggs", "Add milk and season", "Cook and add cheese"]
+  },
+  {
+    "title": "Tacos",
+    "slug": "tacos",
+    "image": "/images/tacos.jpg",
+    "ingredients": ["Taco shells", "Ground beef", "Lettuce", "Cheese", "Salsa"],
+    "steps": ["Cook beef", "Fill tacos with ingredients"]
+  },
+  {
+    "title": "French Toast",
+    "slug": "french-toast",
+    "image": "/images/french-toast.jpg",
+    "ingredients": ["Bread", "Eggs", "Milk", "Cinnamon", "Syrup"],
+    "steps": ["Mix eggs and milk", "Dip bread", "Fry until golden"]
+  },
+  {
+    "title": "Soup",
+    "slug": "soup",
+    "image": "/images/soup.jpg",
+    "ingredients": ["Chicken", "Carrots", "Celery", "Onion", "Broth"],
+    "steps": ["Chop vegetables", "Boil chicken in broth", "Add vegetables", "Simmer"]
+  }
+]
