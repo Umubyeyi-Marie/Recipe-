@@ -1,4 +1,4 @@
-
+import { useUser } from '@clerk/nextjs';
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -17,7 +17,18 @@ type HomeProps = {
 };
 
 export default function Home({ recipes }: HomeProps) {
+  const { isSignedIn, isLoaded } = useUser(); // 👈 Clerk hook
   const [query, setQuery] = useState('');
+
+  if (!isLoaded) {
+    // Still loading user info
+    return <div style={{ background: 'black', height: '100vh' }} />;
+  }
+
+  if (!isSignedIn) {
+    // User is not signed in yet
+    return <div style={{ background: 'black', height: '100vh' }} />;
+  }
 
   const filtered = recipes.filter((recipe) =>
     recipe.title.toLowerCase().includes(query.toLowerCase())
@@ -60,7 +71,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      recipes
-    }
+      recipes,
+    },
   };
 };
